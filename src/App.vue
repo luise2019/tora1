@@ -17,21 +17,29 @@
           <li class="spacer"></li>
           <li><a href="http://" target="_blank">我的订单</a></li>
           <li class="spacer"></li>
-          <li><a href="http://" target="_blank">我的京东圈</a></li>
+          <li>
+            <a href="http://" target="_blank">我的京东</a>
+            <i class="fas fa-angle-down"></i>
+          </li>
           <li class="spacer"></li>
           <li><a href="http://" target="_blank">京东会员</a></li>
-            <li class="spacer"></li>
+          <li class="spacer"></li>
           <li>
             <a href="http://" target="_blank">企业采购</a>
+            <i class="fas fa-angle-down"></i>
             <span></span>
           </li>
           <li class="spacer"></li>
-          <li>客户服务
-            <span></span>
+          <li>
+            客户服务
+            <i class="fas fa-angle-down"></i>
           </li>
           <li class="spacer"></li>
-          <li>网站导航<span></span></li>
-            <li class="spacer"></li>
+          <li>
+            网站导航
+            <i class="fas fa-angle-down"></i>
+          </li>
+          <li class="spacer"></li>
           <li>手机京东</li>
         </ul>
       </div>
@@ -44,6 +52,7 @@
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
+
 
 export default {
   name: "App",
@@ -93,7 +102,7 @@ body {
   display: table;
 }
 
-.short-cut .spacer{
+.short-cut .spacer {
   width: 1px;
   height: 10px;
   background-color: #e3e4e5;
