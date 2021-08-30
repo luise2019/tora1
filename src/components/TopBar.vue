@@ -102,7 +102,8 @@ body {
 .location:hover .city{
   background-color: #ffffff;
   border: 1px solid rgb(204,204,204);
-  border-bottom:2px #ffffff;
+  border-bottom:none;
+  padding-bottom: 1px;
 } 
 .city .fa {
   font-size: 14px;
