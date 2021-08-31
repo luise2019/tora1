@@ -1,30 +1,22 @@
 <template>
-  <div id="app">
+  <div class="EndBar">
     <TopBar />
-    <EndBar />
+    <footer class="end1">
+      <H2>中间准备放点啥</H2>
+    </footer>
   </div>
 </template>
 
 <script>
-import TopBar from "./components/TopBar";
-import EndBar from "./components/EndBar.vue";
-
 export default {
-  name: "App",
+  name: "EndBar",
   components: {
-    TopBar,EndBar,
+    
   },
 };
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -39,7 +31,7 @@ export default {
   position: fixed;
   bottom:0;
 }
-h2{
+h1 {
   /* 外边距自动分配实现水平居中 */
   margin: auto;
 }

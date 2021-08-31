@@ -69,6 +69,8 @@ body {
   width: 1190px;
   margin: 0px auto;
   position: relative;
+  top:0px;
+  left: 0px;
 }
 .location {
   float: left;
