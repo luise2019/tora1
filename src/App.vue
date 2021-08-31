@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <TopBar />
+    <Gallary />
     <EndBar />
   </div>
 </template>
@@ -8,11 +9,12 @@
 <script>
 import TopBar from "./components/TopBar";
 import EndBar from "./components/EndBar.vue";
+import Gallary from "./components/Gallary.vue";
 
 export default {
   name: "App",
   components: {
-    TopBar,EndBar,
+    TopBar,EndBar,Gallary,
   },
 };
 </script>
@@ -30,17 +32,5 @@ export default {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.end1 {
-  width:100%;
-  height: 30px;
-  /* A gradient at the center of its container,
-   starting red, changing to blue, and finishing green */
-  background-image: radial-gradient(circle at center, pink 50%, cyan 100%);
-  position: fixed;
-  bottom:0;
-}
-h2{
-  /* 外边距自动分配实现水平居中 */
-  margin: auto;
-}
+
 </style>

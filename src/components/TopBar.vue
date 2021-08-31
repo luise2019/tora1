@@ -4,37 +4,37 @@
         <div class="location">
           <div class="city">
             <i class="fa fa-map-marker"></i>&nbsp;
-            <a href="#">北京</a>
+            <a href="#">广州</a>
           </div>
           <div class="city-list"></div>
         </div>
         <ul class="short-cut">
           <li>
-            <a href="http://" target="_blank">你好，请登录</a>
+            <a href="http://" target="_blank">你好，占位占</a>
             &nbsp;&nbsp;
-            <a class="style-red" href="http://" target="_blank">免费注册</a>
+            <a class="style-red" href="http://" target="_blank">免费占位</a>
           </li>
           <li class="spacer"></li>
-          <li><a href="http://" target="_blank">我的订单</a></li>
+          <li><a href="http://" target="_blank">我的占位</a></li>
           <li class="spacer"></li>
           <li>
-            <a href="http://" target="_blank">我的京东</a>
+            <a href="http://" target="_blank">我的占位</a>
             &nbsp;<i class="fa fa-angle-down"></i>
           </li>
           <li class="spacer"></li>
-          <li><a href="http://" target="_blank">京东会员</a></li>
+          <li><a href="http://" target="_blank">占位占位</a></li>
           <li class="spacer"></li>
           <li>
-            <a class="style-red" href="http://" target="_blank">企业采购</a>
+            <a class="style-red" href="http://" target="_blank">占位占位</a>
             &nbsp;<i class="fa fa-angle-down"></i>
             <span></span>
           </li>
           <li class="spacer"></li>
-          <li>客户服务 &nbsp;<i class="fa fa-angle-down"></i></li>
+          <li>占位占位 &nbsp;<i class="fa fa-angle-down"></i></li>
           <li class="spacer"></li>
-          <li>网站导航 &nbsp;<i class="fa fa-angle-down"></i></li>
+          <li>占位占位 &nbsp;<i class="fa fa-angle-down"></i></li>
           <li class="spacer"></li>
-          <li>手机京东</li>
+          <li>占位占位</li>
         </ul>
       </div>
     </div>
@@ -64,6 +64,7 @@ body {
   line-height: 29px;
   height: 30px;
   border-bottom: 1px #ddd solid;
+  background-image: radial-gradient(circle at center, pink 50%, cyan 100%)
 }
 .top-bar {
   width: 1190px;
@@ -71,6 +72,7 @@ body {
   position: relative;
   top:0px;
   left: 0px;
+  
 }
 .location {
   float: left;
