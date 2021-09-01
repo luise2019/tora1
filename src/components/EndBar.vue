@@ -1,6 +1,5 @@
 <template>
   <div class="EndBar">
-    <TopBar />
     <footer class="end1">
       <H2>中间准备放点啥</H2>
     </footer>
@@ -17,11 +16,6 @@ export default {
 </script>
 
 <style>
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
 .end1 {
   width:100%;
   height: 30px;
@@ -31,8 +25,5 @@ export default {
   position: fixed;
   bottom:0;
 }
-h1 {
-  /* 外边距自动分配实现水平居中 */
-  margin: auto;
-}
+
 </style>

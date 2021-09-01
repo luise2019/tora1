@@ -31,12 +31,12 @@ export default {
   box-sizing: border-box;
 }
 .Gallary-wrapper{
-  width: 800px;
+  width: 600px;
   height: 600px;
 }
 .photolst-title{
   width: 100%;
-  margin: 0 auto;
+  margin: 5px auto;
   font-weight: bold;
   font-size: 16px;
   text-shadow:5px 5px 5px rgba(50, 145, 235,.5);
@@ -45,13 +45,13 @@ export default {
 .album{
   display:flex;
   flex-flow: row wrap;
-  padding: 0 10px;
 }
 .photo-wrap{
   width: 200px;
   height: 200px;
   overflow: hidden;
   border: 3px solid cornflowerblue;
+  align-items: space-between;
 }
 .copyrightrepo{
   float: left;
