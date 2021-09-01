@@ -19,7 +19,7 @@
 
 <script>
 export default {
-  name: "Tora",
+  name: "Gallary",
   components: {},
 };
 </script>
@@ -45,7 +45,6 @@ export default {
 .album{
   display:flex;
   flex-flow: row wrap;
-  justify-content: space-around;
   padding: 0 10px;
 }
 .photo-wrap{

@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <TopBar />
+    <CardInfo />
     <Gallary />
     <EndBar />
   </div>
@@ -10,11 +11,12 @@
 import TopBar from "./components/TopBar";
 import EndBar from "./components/EndBar.vue";
 import Gallary from "./components/Gallary.vue";
+import CardInfo from "./components/CardInfo.vue";
 
 export default {
   name: "App",
   components: {
-    TopBar,EndBar,Gallary,
+    TopBar,EndBar,Gallary,CardInfo,
   },
 };
 </script>
@@ -31,6 +33,9 @@ export default {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+body{
+  margin-bottom:30px; 
 }
 
 </style>

@@ -60,11 +60,11 @@ body {
 .top-bar-wrapper {
   width: 100%;
   background-color: #e3e4e5;
-  /*  */
   line-height: 29px;
   height: 30px;
   border-bottom: 1px #ddd solid;
-  background-image: radial-gradient(circle at center, pink 50%, cyan 100%)
+  background-image: radial-gradient(circle at center, pink 50%, cyan 100%);
+  margin-bottom:10px;
 }
 .top-bar {
   width: 1190px;
